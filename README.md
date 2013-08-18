@@ -11,8 +11,7 @@ started, with some sample configuration in src/config.yml and the plugin.yml
 already setup under src/plugin.yml, ready to roll.
 
     cd yourplugin
-    lein jar
-    cp target/*.jar /path/to/bukkit/plugins/
+    lein deploy
 
 Start up your Bukkit server and go, by default, you'll see a message when you
 place a sign and there will be a command '/yourplugin.random' which does a dice
