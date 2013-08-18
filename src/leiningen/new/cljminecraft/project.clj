@@ -9,6 +9,5 @@
   :profiles {:dev {:dependencies []
                    :plugins [[cljminecraft-deploy "0.1.0"]]}}
   :hooks [leiningen.cljminecraft-deploy]
-  :repl-options [:init nil :caught clj-stacktrace.repl/pst+]
   :repositories [["bukkit.snapshots" "http://repo.bukkit.org/content/repositories/snapshots"]
                  ["bukkit.releases" "http://repo.bukkit.org/content/repositories/releases"]])
