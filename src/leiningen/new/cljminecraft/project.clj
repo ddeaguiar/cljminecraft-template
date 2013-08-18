@@ -6,6 +6,8 @@
                  [org.clojure/clojure "1.5.1"]
                  [org.clojure/tools.logging "0.2.6"]
                  [org.bukkit/bukkit "1.5.2-R1.0"]]
+  :plugins [[cljminecraft-deploy "0.1.0-SNAPSHOT"]]
+  :hooks [leiningen.cljminecraft-deploy]
   :repl-options [:init nil :caught clj-stacktrace.repl/pst+]
   :repositories [["bukkit.snapshots" "http://repo.bukkit.org/content/repositories/snapshots"]
                  ["bukkit.releases" "http://repo.bukkit.org/content/repositories/releases"]])
